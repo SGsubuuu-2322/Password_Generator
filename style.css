@@ -33,4 +33,18 @@ h2 {
 
 .resultant-container {
   background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  padding: 12px 10px;
+  width: 100%;
+  height: 50px;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.resultant-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
 }
